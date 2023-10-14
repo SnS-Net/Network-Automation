@@ -1,7 +1,8 @@
 # Network Automation Lab
 
 Welcome to the Network Automation! This repository is designed to provide hands-on experience for both network engineers and Linux system administrators in automating network device configuration and managing services on Linux servers using Python and Ansible. This is a lab you **MUST** build yourself.
-
+ > #### **note:** This a work in progress IF your reading this note.
+ 
 ## Overview
 
  ![ServerFarm](images/ServerFarm.png)
@@ -46,11 +47,10 @@ Before you begin, ensure you have the following prerequisites in place:
   pip install peramiko
   ```
 
-# Access the lab environment by following the instructions in the Lab-Setup.md file.
 ## Lab Modules
 The lab is divided into modules, each focusing on specific automation tasks. You can find detailed instructions and examples in the respective folders. Here are some of the key modules:
 
-1) Router Configuration Automation - Learn how to automate the configuration of Cisco routers using Ansible.
+1) Router Configuration Automation - Learn how to automate the configuration of Cisco routers using Ansible & Python.
 
 2) Switch Configuration Automation - Automate the configuration of Cisco switches for network management.
 
