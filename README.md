@@ -1,6 +1,6 @@
 # Network Automation Lab
 
-Welcome to the Network Automation! This repository is designed to provide hands-on experience for both network engineers and Linux system administrators in automating network device configuration and managing services on Linux servers using Python and Ansible.
+Welcome to the Network Automation! This repository is designed to provide hands-on experience for both network engineers and Linux system administrators in automating network device configuration and managing services on Linux servers using Python and Ansible. This is a lab you **MUST** build yourself.
 
 ## Overview
 
@@ -15,15 +15,14 @@ In this lab, you will find a setup consisting of the following components:
 The primary goal is to teach you how to automate tasks related to network devices and services, enabling you to streamline and simplify your network and server management processes.
 
 ## Getting Started
-
 ### Prerequisites
-
 Before you begin, ensure you have the following prerequisites in place:
 
-- Basic knowledge of networking concepts
-- Familiarity with the Cisco CLI
-- Basic understanding of Linux systems
-- Python knowledge is a plus, but not required
+- Basic knowledge of networking concepts 🌐
+- Familiarity with the Cisco CLI 🖥️
+- Basic understanding of Linux systems 🐧
+- Python knowledge is a plus, but not required 🐍
+
 
 ### Setup
 
@@ -38,7 +37,7 @@ Before you begin, ensure you have the following prerequisites in place:
 - Ansible
   ```bash
   sudo apt install ansible
-  sudo ansible-galaxy collection install cisco. ios
+  sudo ansible-galaxy collection install cisco.ios
   ```
 - Python
   ```bash
