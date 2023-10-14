@@ -32,10 +32,20 @@ Before you begin, ensure you have the following prerequisites in place:
    ```bash
    git clone https://github.com/SnS-Net/Network-Automation.git
    cd Network-Automation
+   ```
 
 2. Install the necessary tools and dependencies:
 - Ansible
+  ```bash
+  sudo apt install ansible
+  sudo ansible-galaxy collection install cisco. ios
+  ```
 - Python
+  ```bash
+  sudo apt install python3-pip
+  pip install netmiko
+  pip install peramiko
+  ```
 
 # Access the lab environment by following the instructions in the Lab-Setup.md file.
 ## Lab Modules
