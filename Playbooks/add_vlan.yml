@@ -1,0 +1,22 @@
+---
+- name: Configure VLAN and Interface on lsw3
+  hosts: lsw3
+  gather_facts: no
+  tasks:
+    - name: Add VLAN 130 with name "DBS"
+      ios_vlan:
+        vlan_id: 130
+        name: DBS
+
+    - name: Configure Interface VLAN 130
+      ios_interface:
+        name: Vlan130
+        description: DBS Interface
+        state: present
+
+    - name: Set IP Address on Interface VLAN 130
+      ios_config:
+        lines:
+          - interface Vlan130
+          - ip address 10.1.130.244 255.255.255.0
+      
