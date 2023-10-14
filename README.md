@@ -31,7 +31,18 @@ Before you begin, ensure you have the following prerequisites in place:
    git clone https://github.com/SnS-Net/Network-Automation.git
    cd Network-Automation
 
-Install the necessary tools and dependencies:
+2. Install the necessary tools and dependencies:
+- Ansible
+- Python
 
-Ansible
-Python
+# Access the lab environment by following the instructions in the Lab-Setup.md file.
+## Lab Modules
+The lab is divided into modules, each focusing on specific automation tasks. You can find detailed instructions and examples in the respective folders. Here are some of the key modules:
+
+1) Router Configuration Automation - Learn how to automate the configuration of Cisco routers using Ansible.
+
+2) Switch Configuration Automation - Automate the configuration of Cisco switches for network management.
+
+3) Linux Server Management - Explore automating various tasks on Alpine Linux servers, such as package installation, user management, and service deployment.
+
+3) Network Service Orchestration - Discover how to automate the deployment and management of network services, such as DNS, DHCP, and more.
