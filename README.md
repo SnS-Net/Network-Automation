@@ -1,4 +1,4 @@
-# Network Automation Lab
+# System Administration & Network Automation Lab
 
 Welcome to the Network Automation! This repository is designed to provide hands-on experience for both network engineers and Linux system administrators in automating network device configuration and managing services on Linux servers using Python and Ansible. This is a lab you **MUST** build yourself.
  > #### **note:** This a work in progress IF your reading this note.
