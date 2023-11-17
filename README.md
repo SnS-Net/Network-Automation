@@ -1,6 +1,6 @@
-# System Administration & Network Automation Lab
+# System Administration & Networking Automation Lab
 
-Welcome to the Network Automation! This repository is designed to provide hands-on experience for both network engineers and Linux system administrators in automating network device configuration and managing services on Linux servers using Python and Ansible. This is a lab you **MUST** build yourself.
+Welcome! This repository is designed to provide hands-on experience for both network engineers and Linux system administrators in automating network device configuration and managing services on Linux servers using Python and Ansible. This is a lab you **MUST** build yourself.
  > #### **note:** This a work in progress IF your reading this note.
  
 ## Overview
@@ -37,12 +37,12 @@ Before you begin, ensure you have the following prerequisites in place:
 2. Install the necessary tools and dependencies:
 - Ansible
   ```bash
-  sudo apt install ansible
+  sudo apk add ansible
   sudo ansible-galaxy collection install cisco.ios
   ```
 - Python
   ```bash
-  sudo apt install python3-pip
+  sudo apk add python3-pip
   pip install netmiko
   pip install peramiko
   ```
