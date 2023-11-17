@@ -5,7 +5,7 @@ Welcome to the Network Automation! This repository is designed to provide hands-
  
 ## Overview
 
- ![ServerFarm](images/ServerFarm.png)
+ ![Ansible](images/Ansible.png)
 
 In this lab, you will find a setup consisting of the following components:
 
